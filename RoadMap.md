@@ -96,7 +96,47 @@ A 6-week plan that blends **exam preparation** with **hands-on portfolio project
 - **Blog/LinkedIn:** “How to Optimize Azure Costs Without Sacrificing Performance”  
 
 ---
+## Capstone
 
+### Role Play Scenarios
+
+These scenarios are designed to practice **consultant-style conversations** — exactly what ProServ and Solutions Architects face with customers.  
+They help you move beyond “what Azure can do” into **how to explain its value** in business terms.  
+
+### Scenario 1: Azure Site Recovery (ASR)
+**Character:** Samantha, IT Director at Contoso Financial Services  
+**Context:** She’s considering increasing the budget to roll out Azure Site Recovery (ASR).  
+**Her Questions:**  
+- What exactly does ASR do?  
+- What types of failures does it protect against?  
+- Why is it worth investing in if backups already exist?  
+
+**Your Goal:** Explain ASR in plain language:  
+- Contrast backups vs. replication/failover.  
+- Emphasize RPO/RTO, regional failover, and compliance.  
+- Position ASR as protecting revenue and reputation by reducing downtime.  
+
+---
+
+### Scenario 2: Azure Key Vault
+**Character:** Jax, Co-Cloud Administrator at Contoso Financial Services  
+**Context:** He’s tasked with implementing Azure Key Vault but isn’t clear why it’s needed since Azure already encrypts data at rest and in transit by default.  
+**His Questions:**  
+- Why use Key Vault when encryption is built-in?  
+- What unique purpose does Key Vault serve?  
+- How does it help with secrets, keys, and certificate management?  
+
+**Your Goal:** Explain Key Vault in plain language:  
+- Highlight central secret management and rotation.  
+- Explain separation of duties: apps don’t store creds, they fetch them securely.  
+- Tie back to compliance, auditability, and reduced insider risk.  
+
+---
+
+💡 *Tip: When practicing these, speak out loud as if you’re presenting to a non-technical exec or sysadmin. Focus on outcomes (availability, security, cost savings), not just technical features.*
+
+
+---
 ## By the End
 
 ✔ 5 portfolio projects (each with IaC, diagrams, READMEs)  
